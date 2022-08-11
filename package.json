@@ -10,8 +10,16 @@
 	"scripts": {
 		"test": "node index.js && tsc --noEmit index.test-d.ts"
 	},
-	"author": "",
-	"license": "MIT",
+	"author": {
+		"name": "Seanghay Yath",
+		"email": "seanghay.dev@gmail.com",
+		"url": "https://github.com/seanghay"
+	},
+	"keywords": [
+		"hour",
+		"time"
+	],
+	"license": "Apache-2.0",
 	"devDependencies": {
 		"np": "^7.6.2",
 		"tsd": "^0.22.0",
