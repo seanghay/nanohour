@@ -4,7 +4,18 @@
 	"description": "Nano Hour",
 	"main": "index.js",
 	"sideEffects": false,
+	"module": "./index.es.js",
+	"types": "./index.d.ts",
+	"exports": {
+		".": {
+			"require": "./index.js",
+			"import": "./index.es.js",
+			"types": "./index.d.ts"
+		}
+	},
+	"browser": "./index.es.js",
 	"files": [
+		"index.es.js",
 		"index.js",
 		"index.d.ts"
 	],
