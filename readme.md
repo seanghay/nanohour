@@ -8,6 +8,20 @@ An integer representable time (military time).
 npm install nanohour
 ```
 
+## Imports
+
+```js
+
+// ESM
+import { decode, encode } from 'nanohour';
+
+// CommonJS
+const { decode, encode } = require('nanohour');
+
+// Browser
+import { decode, encode } from 'https://unpkg.com/nanohour'
+```
+
 ## Encode
 
 Convert individual hour and minute to a single integer
