@@ -1,0 +1,3 @@
+# NanoHour
+
+Hour & Minute <==> Integer

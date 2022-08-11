@@ -1,0 +1,20 @@
+{
+	"name": "nanohour",
+	"version": "0.0.0",
+	"description": "Nano Hour",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"scripts": {
+		"test": "node index.js && tsc --noEmit index.test-d.ts"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"np": "^7.6.2",
+		"tsd": "^0.22.0",
+		"typescript": "^4.7.4"
+	}
+}
