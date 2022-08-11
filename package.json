@@ -3,6 +3,7 @@
 	"version": "1.0.1",
 	"description": "Nano Hour",
 	"main": "index.js",
+	"sideEffects": false,
 	"files": [
 		"index.js",
 		"index.d.ts"
@@ -19,6 +20,7 @@
 		"hour",
 		"time"
 	],
+	"repository": "seanghay/nanohour",
 	"license": "Apache-2.0",
 	"devDependencies": {
 		"np": "^7.6.2",
