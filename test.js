@@ -4,7 +4,7 @@ const { decode, encode, addHours, addMinutes, normalize, isBetween } = require('
 assert.equal(normalize(1030), 1030)
 
 assert.equal(normalize(1160), 1200)
-assert.equal(normalize(1160), 1200)
+assert.equal(normalize(1190), 1230)
 
 assert.equal(isBetween(1000, 900, 1200), true)
 assert.equal(isBetween(1000, 1200, 900), true)
