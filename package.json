@@ -20,7 +20,7 @@
 		"index.d.ts"
 	],
 	"scripts": {
-		"test": "node index.js && tsc --noEmit index.test-d.ts"
+		"test": "node test.js && tsc --noEmit index.test-d.ts"
 	},
 	"author": {
 		"name": "Seanghay Yath",

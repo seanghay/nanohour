@@ -46,15 +46,16 @@ export function normalize(time) {
 }
 
 export function isBetween(value, timeLeft, timeRight) {
-
   let left;
   let right;
-  
+
   value = normalize(value);
 
   if (timeLeft > timeRight) {
-    left = normalize(timeRight);
-    right = normalize(timeLeft);
+    left = normalize(timeLeft);
+    right = normalize(timeRight) + 2400;
+    if (value < timeLeft) value += 2400;
+
   } else {
     left = normalize(timeLeft);
     right = normalize(timeRight);
